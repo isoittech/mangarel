@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "lib": ["dom", "esnext"],
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "outDir": "lib",
+    "removeComments": true,
+    "rootDir": "src",
+    "sourceMap": true,
+    "strict": true,
+    "target": "es2017",
+    "allowJs": true,
+    "resolveJsonModule": true,
+    "types": ["jest", "node"],
+    "typeRoots": ["node_modules/@types", "../node_modules/@types"]
+  },
+  "compileOnSave": true,
+  "include": ["src"],
+  "exclude": ["node_modules"]
+}
